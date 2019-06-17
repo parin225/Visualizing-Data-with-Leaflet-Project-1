@@ -100,8 +100,8 @@ function getColor(m) {
          m > 3 ? '#feb24c':
          m > 2 ? '#fed976':
          m > 1 ? '#ffeda0':
-                  '#ffffcc'
-}
+                  '#ffffcc';
+};
 
 var legend = L.control({position: "bottomleft"});
 legend.onAdd = function(map) {
